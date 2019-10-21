@@ -1,0 +1,184 @@
+/*
+ Theme Name:     Aspen Child
+ Theme URI:      https://themeforest.net/item/aspen-wordpress-blog-theme/22830235
+ Description:    Aspen Child Theme
+ Author:         Angelo Crincoli
+ Template:       aspen
+ Version:        1.0.0
+*/
+
+.blog-header.has-banner-background {
+	background-position: center center;
+}
+
+.formTitle{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.rcp_subscription_level_name{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.rcp_subscription_message{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.rcp_discount_code_field_wrap{
+	width: 70%;
+}
+
+.rcp_discount_code_field_wrap .rcp_button{
+	width: 28%;
+}
+
+#rcp_discount_code{
+	width: 70% !important;	
+}
+
+#rcp_registration_form{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 100%;
+}
+
+/*.rcp_user_fieldset{
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}*/
+
+.rcp_user_fieldset p{
+	width: 40%;
+	margin-left: 2.5% !important;
+	margin-right: 2.5% !important;
+	display: inline-block;
+}
+
+/*
+#rcp_registration_form p{
+	margin: 0 !important;
+}
+.rcp_user_fieldset p{
+	width: 40%;
+	margin: 0 !important;
+}*/
+
+
+#rcp_discount_code_wrap{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#rcp_subscription_levels {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.rcp_subscription_level {
+	list-style-type: none !important; 
+}
+
+.entry-content li .rcp_subscription_level {
+	list-style-type: none;
+	margin-left: 0;
+}
+
+.rcp_subscription_fieldset {
+	padding-bottom: 30px;
+}
+
+#rcp_gateway_extra_fields {
+	max-width: 600px;
+}
+
+.rcp_gateway_fields {
+	padding-top: 30px;
+}
+
+.rcp_gateway_fields legend {
+	font-weight: bold;
+	color: #821023;
+}
+
+.rcp-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 1.75em;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.rcp-table, .rcp-table th, .rcp-table td {
+    border: 1px solid #d1d1d1;
+}
+
+.rcp-table th, .rcp-table td {
+    padding: 5px;
+}
+
+#rcp_profile_editor_form legend {
+	font-size: 21px;
+	padding: 25px 0;
+	font-weight: bold;
+	color: #222;
+	text-transform: uppercase;
+}
+
+.rcp_gateways_fieldset legend {
+	font-size: 21px;
+	color: #ff0000;
+	margin-bottom: 10px;
+}
+
+.rcp-input {
+	background: #f1f1f1;
+	border-bottom: none;
+}
+
+#rcp_profile_editor_submit {
+	color: #fff;
+	border-radius: 4px;
+}
+
+.rcp_button {
+	background: #e6313d;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#rcp_submit {
+	padding: 15px 60px;
+	margin-top: 15px;
+	color: #fff;
+	font-weight: bold;
+}
+
+#rcp_subscription_levels {
+	margin-left: 0;
+}
+
+.ccfic {
+	padding-top: 10px;
+  color: #aaa;
+  font-style: italic;
+}
+
+#rcp_discount_code {
+	width: 50%;
+}
+
+.page-id-3420 #rcp_discount_code_wrap, .page-id-3420 .aspen-ad {
+	display: none;
+}
