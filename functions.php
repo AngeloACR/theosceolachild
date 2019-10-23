@@ -12,19 +12,5 @@ function my_theme_enqueue_styles() {
     );
 }
 
-function paymentImages() {
-?>
-    <script language="JavaScript">
-        var myGates = document.getElementsByClassName('rcp_gateway_option_label');
-        var htmlPaypal = "<input id=\"rcp_gateway_paypal\" name=\"rcp_gateway\" type=\"radio\" class=\"rcp_gateway_option_input\" value=\"paypal\" data-supports-recurring=\"yes\" data-supports-trial=\"yes\" checked=\"checked\"><img src=\"/wp-content/themes/aspen-child/paypal.jpeg\" height=\"120\" width=\"180\">";
-        var htmlStripe =  "<input id=\"rcp_gateway_stripe\" name=\"rcp_gateway\" type=\"radio\" class=\"rcp_gateway_option_input\" value=\"stripe\" data-supports-recurring=\"yes\" data-supports-trial=\"yes\"> <img src=\"/wp-content/themes/aspen-child/stripe.jpeg\" height=\"60\" width=\"180\">"
-        
-        myGates[0].innerHTML = htmlPaypal;
-        myGates[1].innerHTML = htmlStripe;
-    </script>
-
-
-<?php
-}
-add_action( 'wp_footer', 'paymentImages' );
+include_once('deferredIncome.php');
     
